@@ -1,4 +1,4 @@
-import '../Checkout.css'
+import '../styles/Checkout.css'
 import { useStateValue } from '../StateProvider';
 import CheckoutProduct from './CheckoutProduct';
 import Subtotal from './Subtotal'
