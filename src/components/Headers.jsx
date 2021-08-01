@@ -15,7 +15,7 @@ const Header = () => {
     }
     return ( 
         <div className="header">
-            <Link to="/">
+            <Link to="/" style={{ textDecoration: 'none' }}>
                 <img src="http://pngimg.com/uploads/amazon/amazon_PNG11.png" alt="" className="header__logo" />
             </Link>
             <div className="header__search">
@@ -33,6 +33,7 @@ const Header = () => {
                             </span>
                     </div>
                 </Link>
+                <Link to='/orders' style={{ textDecoration: 'none' }}>
                     <div className="header__option">
                         <span className="header__optionLineOne">
                             Returns
@@ -41,6 +42,8 @@ const Header = () => {
                             & Orders
                         </span>
                     </div>
+                </Link>
+                    
                     <div className="header__option">
                         <span className="header__optionLineOne">
                             Your

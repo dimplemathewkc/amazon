@@ -8,8 +8,13 @@
   width: 100%;
   max-height: 400px;
   min-width: 100px;
+  overflow:hidden;
   background-color: white;
   z-index: 1;
+}
+.product:hover{
+  transform: scale(1.05);
+  transition: all .2s ease-in-out;
 }
 
 .product__rating {
